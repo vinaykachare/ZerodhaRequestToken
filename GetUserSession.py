@@ -35,7 +35,7 @@ class ZerodhaAccessToken:
 
 
             ## chrome driver object
-            driver = webdriver.Chrome(chrome_driver_path, chrome_options=options)
+            driver = webdriver.Chrome(chrome_driver_path, options=options)
 
             ## load the url into chrome
             driver.get(login_url)
